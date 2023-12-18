@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(background1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 140vh;
+}
+
+.navbar{
+    width: 1800px;
+    height: 75px;
+}
+
+.icon{
+   
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 32px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+    margin-top: 27px;
+    font-size: 14px;
+    margin-left: 2rem;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+
+.content{
+    width: 1200px;
+    height:auto ;
+    margin: 50px;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+padding-left: 20px;
+padding-bottom: 25px;
+font-family: Arial;
+letter-spacing: 1.2px;
+line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.event h1{
+    font-family: 'arial';
+    text-align: center;
+    width: 10%;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    padding-top: 10px;
+    position: center;
+    margin-top: 50px;
+}
+
+.event .par{
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    color: #fff;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.container{
+width: 85vmin;
+position: absolute;
+border: 20px solid #fff;
+transform: translate(-50%, -50%);
+top: 80%;
+left: 50%;
+overflow: hidden;
+border-radius: 8px;
+box-shadow: 10px 25px 30px rgba(30,30,200, 0.3);
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;  
+    animation: slide 15s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%)
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+   
+    }
+}
+
+img{
+width: 100%;
+
+}
+
+.achievements h1{
+    font-family: 'arial';
+    text-align: center;
+    width: 10%;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    padding-top: 10px;
+    position: center;
+    margin-top: 50px;
+}
+.achive img {
+    position: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 350px;
+    border: 5px solid rgb(55, 0, 255);
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #ff7200;
+    cursor: pointer;
+    margin: 30px;
+    transition: 400ms;
+    margin-left:8%;
+    margin-right:8%;
+    
+}
+
+
+
+.developer{
+    min-height: 40vh;
+    padding: 5rem 9% 2rem;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: orange;
+}
+
+.dev img{
+    left: 10px;
+    border-radius:50%;
+    max-width: 25vw;
+    filter: drop-shadow(0px 0px 10px #ff7000);
+}
+.developer-content h3{
+    
+    text-align: left;
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.developer-content .h3A{
+    font-size: 2.5rem;
+}
+
+
+.developer-content p{
+    margin-right: 90px;
+    padding-top: 20px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+
+.AboutUs1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 0vh;
+    gap: 5rem;
+}
+
+.AbourUs1-img img{
+    border-radius:50%;
+    max-width: 15vw;
+    filter: drop-shadow(0px 0px 10px #ff7200);
+}
+.headingss{
+    color: #fff;
+    text-align: center;
+    font-size: 3.4rem;
+    padding-bottom: 20px;
+}
+.developer-content1 h2{
+    text-align: left;
+    line-height: 1.2;
+}
+.headingss2{
+    font-size: 2.5rem;
+}
+.developer-content1 p{
+    padding-top: 20px;
+    font-size: 1rem;
+    color: #fff;
+}
